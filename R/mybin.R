@@ -7,7 +7,7 @@
 #' @return A barplot of the proportions and a table of successes
 #' @export
 #'
-#' @examples
+#' @examples - this function could be used for 10,000 iterations, 7 trials, and a probability of 0.5. The input would be (iter=10000, n=7, p=0.5). The function would take this information and create a barplot of the proportions and a table of the successes
 mybin=function(iter=100,n=10, p=0.5){
   # make a matrix to hold the samples
   #initially filled with NA's

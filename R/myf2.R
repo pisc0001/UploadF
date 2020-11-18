@@ -1,13 +1,9 @@
 #' @title creating myf2
 #'
 #' @param x
-#' @param xk
-#' @param xk2
-#' @param coef
-#'
-#' @return
+#' @return x^2 - the value of the input to the second power
 #' @export
 #'
-#' @examples
+#' @examples if the given x= 3, then the output of the function would be 9
 myf2 = function(x) {x^2}
 
